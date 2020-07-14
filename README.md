@@ -1,5 +1,5 @@
 
-Implementation of Crud Project’s UI using HTML,CSS and A bit of JS.  
+Implementation of Crud Project’s UI using HTML,CSS and a bit of JS.  
 
 No Back End or Database implementation. You can visit the Site here 
 
