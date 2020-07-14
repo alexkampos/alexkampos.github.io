@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Student's Course's Assignment</title>
+    <link rel="stylesheet" href="../css/editUpdateAssiPerStudPerCourse.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top_bar">
+            <div class="logo">
+                <img src="../images/alias symbol.png" alt="">
+            </div>
+            <ul class="nav-area">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <table>
+                <tr>
+                    <th colspan="5" class="first_row">ASSIGNMENT</th>
+                    <th colspan="4" class="first_row">STUDENT</th>
+                    <th colspan="5" class="first_row">COURSE</th>
+                </tr>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Submission Date</th>
+                    <th>Oral Mark</th>
+                    <th>Total Mark</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Date of Birth</th>
+                    <th>Tuition Fees</th>
+                    <th>Title</th>
+                    <th>Stream</th>
+                    <th>Type</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                </tr>
+                <tr>
+                    <td>Private School</td>
+                    <td>Create a private school database.</td>
+                    <td>20/05/2020</td>
+                    <td>15.00</td>
+                    <td>100.00</td>
+                    <td>Makis</td>
+                    <td>Fontas</td>
+                    <td>04/11/1992</td>
+                    <td>2000.00</td>
+                    <td>Coding Bootcamp 9</td>
+                    <td>C#</td>
+                    <td>Full-Time</td>
+                    <td>15/03/2020</td>
+                    <td>15/06/2020</td>
+                </tr>
+                <tr>
+                    <td>Prime Numbers</td>
+                    <td>Create a program that calculates prime numbers.</td>
+                    <td>29/12/2019</td>
+                    <td>20.00</td>
+                    <td>100.00</td>
+                    <td>Zoi</td>
+                    <td>Pavlou</td>
+                    <td>29/01/1984</td>
+                    <td>2500.00</td>
+                    <td>Coding Bootcamp 8</td>
+                    <td>C#</td>
+                    <td>Part-time</td>
+                    <td>15/11/2019</td>
+                    <td>15/05/2019</td>
+                </tr>
+            </table>
+            <div id="assi">
+                <label for="assignment">Choose an assignment:</label>
+                <select name="assignment">
+                    <option>Private School, Makis Fontas, CB-9 Full-time C#</option>
+                    <option>Prime Numbers, Zoi Pavlou, CB-8 Part-time C#</option>
+                </select>
+            </div>
+            <button>Confirm</button>
+        </div>
+        <footer>
+            <p>
+                Copyright &#169; 2020 by ALIAS, <br>
+                subject to the restrictions the copyright slide, <br>
+                ALIAS Copyright Notice.
+            </p>
+        </footer>
+    </header>
+</body>
+
+</html>

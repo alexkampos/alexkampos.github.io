@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Trainer To Course</title>
+    <link rel="stylesheet" href="../css/addTrainerPerCourse.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <header>
+    <div class="top_bar">
+        <div class="logo">
+            <img src="../images/alias symbol.png" alt="">
+        </div>
+        <ul class="nav-area">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+    <table>
+        <tr>
+            <th colspan="3" class="first_row">STUDENT</th>
+            <th colspan="5" class="first_row">COURSE</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Subject</th>
+            <th>Title</th>
+            <th>Stream</th>
+            <th>Type</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+        </tr>
+        <tr>
+            <td>Marios</td>
+            <td>Zorbas</td>
+            <td>C# Basics</td>
+            <td>Coding Bootcamp 9</td>
+            <td>C#</td>
+            <td>Full-Time</td>
+            <td>15/03/2020</td>
+            <td>15/06/2020</td>
+        </tr>
+        <tr>
+            <td>Fotis</td>
+            <td>Georgiou</td>
+            <td>C# Advance</td>
+            <td>Coding Bootcamp 8</td>
+            <td>C#</td>
+            <td>Part-time</td>
+            <td>15/11/2019</td>
+            <td>15/05/2019</td>
+        </tr>
+        <tr>
+            <td>Vaggelis</td>
+            <td>Fanis</td>
+            <td>Java Basics</td>
+            <td>Coding Bootcamp 8</td>
+            <td>Java</td>
+            <td>Full-time</td>
+            <td>20/11/2019</td>
+            <td>20/02/2019</td>
+        </tr>
+    </table>
+    <div id="trainer">
+<label for="trainer">Choose a trainer:</label>
+    <select name="trainer">
+        <option>Giorgos Markakis</option>
+        <option>Zisis Lamprou</option>
+        <option>Maria Antoniou</option>
+        <option>Viki Kanata</option>
+    </select>
+</div>
+<div id="course">
+    <label for="course">Choose a course:</label>
+    <select name="course">
+        <option>CB-10 Java Part-Time</option>
+        <option>CB-10 Java Full-Time</option>
+        <option>CB-10 C# Part-Time</option>
+        <option>CB-10 C# Full-time</option>
+    </select>
+</div>
+<button>Register</button>
+    </div>
+    <footer>
+        <p>
+            Copyright &#169; 2020 by ALIAS, <br>
+            subject to the restrictions the copyright slide, <br>
+            ALIAS Copyright Notice.
+        </p>
+    </footer>
+</header>
+</body>
+</html>
