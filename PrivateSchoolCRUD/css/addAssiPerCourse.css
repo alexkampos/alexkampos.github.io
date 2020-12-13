@@ -55,8 +55,11 @@ header {
     position: absolute;
     width: 900px;
     height: 480px;
-    margin: 40px;
-    left: 300px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     background: rgba(202, 189, 189, 0.322);
     border-radius: 10px 110px 10px 110px;
 }

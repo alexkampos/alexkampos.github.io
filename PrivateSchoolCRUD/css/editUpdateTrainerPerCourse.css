@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
 }
-body,html {
+
+body, html {
     height: 100%;
 }
 
-.top_bar{
+.top_bar {
     width: auto;
     height: 100px;
     margin: 0px 150px;
@@ -15,12 +16,11 @@ body,html {
 }
 
 header {
-    background-image:linear-gradient(to bottom, rgba(222, 223, 166, 0.178),rgba(75, 58, 32, 0.116)), url(../images/background.jpg);
+    background-image: linear-gradient(to bottom, rgba(222, 223, 166, 0.178), rgba(75, 58, 32, 0.116)), url(../images/background.jpg);
     height: 100%;
     background-size: cover;
     background-position: center;
     position: relative;
-
 }
 
 .nav-area {
@@ -29,7 +29,7 @@ header {
     margin-top: 30px;
 }
 
-.nav-area li{
+.nav-area li {
     display: inline-block;
     padding-right: 25px;
 }
@@ -55,20 +55,23 @@ header {
     position: absolute;
     width: 900px;
     height: 480px;
-    margin: 40px;
-    left: 300px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     background: rgba(202, 189, 189, 0.322);
     border-radius: 10px 110px 10px 110px;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: rgba(118, 118, 141, 0.308);
-  color: white;
-  z-index: 1;
-  text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(118, 118, 141, 0.308);
+    color: white;
+    z-index: 1;
+    text-align: center;
 }
 
 .button {
@@ -101,24 +104,24 @@ td, th {
     border: 1px solid rgb(223, 223, 223);
     text-align: center;
     padding: 8px;
-  }
+}
 
-  th {
-     background-color: rgba(118, 118, 141, 0.767); 
-     font-size: 15px;
-     color: seashell;
-  }
+th {
+    background-color: rgba(118, 118, 141, 0.767);
+    font-size: 15px;
+    color: seashell;
+}
 
-  .first_row {
-      background-color: rgb(57, 60, 66);
-  }
+.first_row {
+    background-color: rgb(57, 60, 66);
+}
 
-  td {
-      background-color: white;
-      color: #999;
-  }
+td {
+    background-color: white;
+    color: #999;
+}
 
-  select {
+select {
     display: block;
     width: 200px;
     height: 40px;
@@ -129,29 +132,26 @@ td, th {
     color: white;
     border: none;
     box-shadow: 5px 5px 25px -10px;
-  }
+}
 
-  label {
+label {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+}
 
-  #trainer {
-position: relative;
-left: 200px;
-top: 90px;
-  }
+#select-and-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 8% 13%;
+}
 
-  button {
+button {
     padding: 12px 20px;
-    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     width: 200px;
     background-color: rgb(19, 179, 27);
     cursor: pointer;
-    position: relative;
-    left: 830px;
-    top: 395px;
-  }
+    margin-top: 10%;
+}

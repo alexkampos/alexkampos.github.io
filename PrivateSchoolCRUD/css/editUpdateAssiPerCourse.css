@@ -55,8 +55,11 @@ header {
     position: absolute;
     width: 900px;
     height: 480px;
-    margin: 40px;
-    left: 300px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     background: rgba(202, 189, 189, 0.322);
     border-radius: 10px 110px 10px 110px;
 }
@@ -136,12 +139,6 @@ td, th {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-  #assi {
-position: relative;
-left: 200px;
-bottom: -37px;
-  }
-
   button {
     padding: 12px 20px;
     display: inline-block;
@@ -151,7 +148,11 @@ bottom: -37px;
     width: 200px;
     background-color: rgb(19, 179, 27);
     cursor: pointer;
-    position: relative;
-    left: 830px;
-    top: 415px;
+    margin-top: 10%;
+  }
+
+  #select-and-button {
+      display: flex;
+      justify-content: space-between;
+      margin: 5% 13%;
   }
