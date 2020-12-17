@@ -25,7 +25,7 @@ A Private School System Management Interface where following layouts are impleme
 &emsp;&#8226;&emsp;Add / Edit / Update Form for Assignments per Course\
 \
 &emsp;&#8226;&emsp;HTML Validation for Forms\
-\
+
 
 ## Technology & Tools
 
